@@ -10,17 +10,15 @@ body {
   color: #e5d7bc;
 }
 
-.type-one {
-  letter-spacing: 9px;
-}
-
 .type-two {
-  font-size: .6em;
+  font-size: .5em;
   opacity: .7;
+  color: #fff;
 }
 
 .type-three {
   font-weight: 200;
+  color: #fff;
 }
 
 .type-four {
@@ -29,7 +27,7 @@ body {
 
 .area-text {
   margin: 5rem 0 2rem 0;
-  padding-top: 5rem;
+  padding-top: 3rem;
   text-transform: uppercase;
   position: relative;
   z-index: 2;
@@ -37,17 +35,29 @@ body {
 
 .script {
   position: absolute;
-  top: 4rem;
+  top: 2rem;
   left: 5rem;
   font-size: 6em;
   z-index: 1;
   overflow: visible;
   font-family: "Parisienne", cursive;
   color: #b68487;
-  opacity: .4;
+  opacity: .3;
 }
 
 hr {
   border: 1px solid #e5d7bc;
   opacity: .5;
+  display: none;
+}
+
+.op {
+  text-decoration: line-through;
+}
+
+.source {
+  text-transform: uppercase;
+  color: #dfb09e;
+  font-size: .6rem;
+  padding-top: 6rem;
 }
