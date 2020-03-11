@@ -1,24 +1,35 @@
-.page {
-  background-color: #4d4d4d;
+body {
+  background-color: #74626e;
 }
 
 .content {
-  position: relative;
   text-align: left;
   overflow: visible;
-  margin-left: auto;
-  margin-right: auto;
   font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-  color: #fff;
+  font-weight: 300;
+  color: #e5d7bc;
 }
 
 .type-one {
-  letter-spacing: 10px;
+  letter-spacing: 9px;
+}
+
+.type-two {
+  font-size: .6em;
+  opacity: .7;
+}
+
+.type-three {
+  font-weight: 200;
+}
+
+.type-four {
+  font-size: .8em;
 }
 
 .area-text {
-  margin: 40px 0 40px 0;
+  margin: 5rem 0 2rem 0;
+  padding-top: 5rem;
   text-transform: uppercase;
   position: relative;
   z-index: 2;
@@ -26,14 +37,17 @@
 
 .script {
   position: absolute;
-  top: 30px;
-  font-size: 8em;
+  top: 4rem;
+  left: 5rem;
+  font-size: 6em;
   z-index: 1;
   overflow: visible;
   font-family: "Parisienne", cursive;
-  color: #000;
+  color: #b68487;
+  opacity: .4;
 }
 
-.script-two {
-  color: red;
+hr {
+  border: 1px solid #e5d7bc;
+  opacity: .5;
 }
