@@ -1,11 +1,7 @@
 body {
   background-color: #74626e;
-  background: repeating-linear-gradient(
-  90deg,
-  #6e5b67,
-  #6e5b67 1px,
-  #74626e 1px,
-  #74626e 15px);
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle,  #74626e 1px, rgba(0, 0, 0, .4) 1px);
 }
 
 .content {
@@ -16,19 +12,19 @@ body {
   color: #e5d7bc;
 }
 
+.type-one {
+  font-weight: 200;
+  letter-spacing: 5px;
+}
+
 .type-two {
-  font-size: .5em;
+  font-size: .4em;
   opacity: .7;
-  color: #fff;
 }
 
 .type-three {
   font-weight: 200;
   color: #fff;
-}
-
-.type-four {
-  font-size: .8em;
 }
 
 .area-text {
@@ -52,6 +48,10 @@ body {
   opacity: .3;
 }
 
+.op {
+  opacity: .5;
+}
+
 hr {
   border: 1px solid #e5d7bc;
   opacity: .5;
@@ -67,9 +67,47 @@ hr {
 
 .source p {
   border: 1px solid #b68487;
-  padding: .3rem;
+  padding: .3rem 1.5rem;
 }
 
-.stripes {
+@media only screen and (min-width: 38em) {
+
+  .type-three {
+    padding-top: 0;
+    font-size: 1rem;
+  }
+
+  .type-one {
+    letter-spacing: 10px;
+  }
+
+  .type-two {
+    font-size: .5em;
+  }
+
+  .script {
+    font-size: 7rem;
+    top: .5em;
+  }
+
+  .area-text {
+    padding-top: 7rem;
+  }
+
+  .source {
+    padding-top: 8rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .type-one {
+    letter-spacing: 20px;
+  }
+
+  .op {
+    text-decoration: line-through;
+  }
 
 }
