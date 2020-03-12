@@ -1,19 +1,17 @@
 body {
   background-color: #74626e;
   background-size: 40px 40px;
-  background-image: radial-gradient(circle,  #74626e 1px, rgba(0, 0, 0, .4) 1px);
+  background-image: radial-gradient(circle, #74626e 1px, rgba(0, 0, 0, .4) 1px);
 }
 
 .content {
   text-align: left;
   overflow: visible;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-family: Montserrat, sans-serif;
   color: #e5d7bc;
 }
 
 .type-one {
-  font-weight: 200;
   letter-spacing: 3px;
 }
 
@@ -38,32 +36,23 @@ body {
 }
 
 .type-two {
-  font-size: .4em;
   opacity: .7;
 }
 
-.type-three {
-  font-weight: 200;
-  color: #fff;
-}
-
 .area-text {
-  margin: 5rem 0 2rem 0;
-  padding-top: 5rem;
-  text-transform: uppercase;
+  margin: 4rem 0 2rem;
   position: relative;
   z-index: 2;
 }
 
 .script {
   position: absolute;
-  top: 1em;
+  top: 4em;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 5.5em;
   z-index: 1;
   overflow: visible;
-  font-family: "Parisienne", cursive;
+  font-family: Parisienne, cursive;
   color: #b68487;
   opacity: .3;
 }
@@ -72,50 +61,35 @@ body {
   opacity: .5;
 }
 
-hr {
-  border: 1px solid #e5d7bc;
-  opacity: .5;
-  display: none;
-}
-
 .source {
-  text-transform: uppercase;
   color: #dfb09e;
-  font-size: .6rem;
-  padding-top: 6rem;
 }
 
 .source p {
   border: 1px solid #b68487;
-  padding: .3rem 1.5rem;
 }
 
 @media only screen and (min-width: 38em) {
 
-  .type-three {
-    padding-top: 0;
-    font-size: 1rem;
+  .source {
+    display: flex;
   }
 
   .type-one {
     letter-spacing: 6px;
   }
 
-  .type-two {
-    font-size: .5em;
-  }
-
   .script {
-    font-size: 7rem;
-    top: .5em;
+    top: 6em;
+    letter-spacing: 10px;
   }
 
   .area-text {
-    padding-top: 7rem;
+    margin-top: 8rem;
   }
 
   .source {
-    padding-top: 8rem;
+    margin-top: 5rem;
   }
 
 }
@@ -124,10 +98,6 @@ hr {
 
   .type-one {
     letter-spacing: 9px;
-  }
-
-  .op {
-    text-decoration: line-through;
   }
 
 }
