@@ -40,7 +40,7 @@ body {
 }
 
 .area-text {
-  margin: 4rem 0 2rem;
+
   position: relative;
   z-index: 2;
 }
@@ -71,10 +71,6 @@ body {
 
 @media only screen and (min-width: 38em) {
 
-  .source {
-    display: flex;
-  }
-
   .type-one {
     letter-spacing: 6px;
   }
@@ -82,14 +78,6 @@ body {
   .script {
     top: 6em;
     letter-spacing: 10px;
-  }
-
-  .area-text {
-    margin-top: 8rem;
-  }
-
-  .source {
-    margin-top: 5rem;
   }
 
 }
